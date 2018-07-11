@@ -273,6 +273,11 @@ namespace cs_xiangqi
 
         private void btn_restart_Click(object sender, EventArgs e)
         {
+            if (btn_new.Enabled == true)
+            {
+                this.picBox_Board.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picBox_Board_MouseClick);
+                btn_new.Enabled = false;
+            }
             game.newGame();
             picBox_Board.Invalidate();
         }
@@ -370,6 +375,7 @@ namespace cs_xiangqi
             game.newGame();
             this.picBox_Board.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picBox_Board_MouseClick);
             picBox_Board.Invalidate();
+            btn_new.Enabled = false;
         }
 
         private void picBox_Board_Paint(object sender, PaintEventArgs e)

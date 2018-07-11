@@ -43,6 +43,23 @@ namespace cs_xiangqi
             this.type = pType.ToString();
         }
 
+        protected List<int> getPiecePosition(string type, string side, GameBoard game)
+        {
+            List<int> piecePos = new List<int>();
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    if (game.board[i][j][0] == type && game.board[i][j][1] == side)
+                    {
+                        piecePos = new List<int>(new int[] { i, j});
+                        return piecePos;
+                    }
+                }
+            }
+            return piecePos;
+        }
+
         protected Boolean desIsEmptyOrDifferenceSide(int desPosX, int desPosY, GameBoard game)
         {
             if (game.board[desPosX][desPosY][0] == posType.Empty.ToString() || game.board[desPosX][desPosY][1] != side)
