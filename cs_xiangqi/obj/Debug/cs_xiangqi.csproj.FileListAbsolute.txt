@@ -7,3 +7,8 @@ c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\
 c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.csproj.GenerateResource.Cache
 c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.exe
 c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.pdb
+C:\Users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\bin\Debug\cs_xiangqi.exe.manifest
+C:\Users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\bin\Debug\cs_xiangqi.application
+C:\Users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.TrustInfo.xml
+C:\Users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.exe.manifest
+C:\Users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.application
