@@ -29,6 +29,20 @@ namespace cs_xiangqi
             game.newGame();
         }
 
+        private void changeLbTurn()
+        {
+            if (lb_turn.Text == "Red turn")
+            {
+                lb_turn.Text = "Black turn";
+                lb_turn.ForeColor = Color.Black;
+            }
+            else if (lb_turn.Text == "Black turn")
+            {
+                lb_turn.Text = "Red turn";
+                lb_turn.ForeColor = Color.Red;
+            }
+        }
+
         private void picBox_Board_MouseClick(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Right)
@@ -228,7 +242,7 @@ namespace cs_xiangqi
                         if (currentPieceSelected.move(currentPieceX, currentPieceY, posInBoardX, posInBoardY, game))
                         {
                             game.makeMove(currentPieceX, currentPieceY, posInBoardX, posInBoardY);
-
+                            changeLbTurn();
                         }
                         else
                         {
@@ -259,7 +273,8 @@ namespace cs_xiangqi
 
         private void btn_restart_Click(object sender, EventArgs e)
         {
-            picBox_Board.Image = global::cs_xiangqi.Properties.Resources.chinese_chess_board_2;
+            game.newGame();
+            picBox_Board.Invalidate();
         }
         public int delete = 0;
 
@@ -424,6 +439,11 @@ namespace cs_xiangqi
 
                 g.Clear(Color.White);
             }
+        }
+
+        private void btn_restart_Click_1(object sender, EventArgs e)
+        {
+
         }
 
 
