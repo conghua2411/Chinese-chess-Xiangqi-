@@ -7,3 +7,6 @@ c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\
 c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.csproj.GenerateResource.Cache
 c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.exe
 c:\users\hoang cong\documents\visual studio 2012\Projects\cs_xiangqi\cs_xiangqi\obj\Debug\cs_xiangqi.pdb
+E:\GitHub\xiangqi-csharp\Chinese-chess-Xiangqi-\cs_xiangqi\bin\Debug\cs_xiangqi.exe.config
+E:\GitHub\xiangqi-csharp\Chinese-chess-Xiangqi-\cs_xiangqi\obj\Debug\cs_xiangqi.exe
+E:\GitHub\xiangqi-csharp\Chinese-chess-Xiangqi-\cs_xiangqi\obj\Debug\cs_xiangqi.pdb
